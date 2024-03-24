@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Code Quiz</title>
+</head>
+<body>
+    <header>
+     <!-- Create sections for highscores link and timer header -->
+     <section class="highscores">
+      <a href="#" id="viewhighscores"><p>View high scores</p></a>
+       </section>
+       
+       <section class="time">
+       <p>Time: </p>
+        <p id="timer">0</p>
+     </section>
+
+    </header>
+
+    <main>
+      <!-- Containers for scores results, code quiz, start screen, and buttons. -->
+        <section id="feedback"></section>
+
+        <section class="startscreen">
+        <h1>Coding Quiz Challenge</h1>
+         <p>
+            Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+         </p>
+         
+     <button class="selectbutton" id="start">
+      Start Quiz
+        </button>
+
+     </section>
+     
+     <div class="questionquiz" id="questionquiz"></div>
+     <div class="selectbutton" id="questions"></div>
+     <div class="selectbutton" id="submit"></div>
+     <section id="scores" style="display: none;"></section>
+     <section id="highscores" style="display: none;">
+        <h2>High Scores</h2>
+        <div id="scorelist"></div>
+        <button class="selectbutton" id="goback">Go Back</button>
+        <button class="selectbutton" id="clearhighscores">Clear High Scores</button>
+    </section>
+     <script src="./assets/script.js"></script>
+    </main>
+</body>
+</html>

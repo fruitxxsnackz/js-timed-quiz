@@ -1,0 +1,61 @@
+* {
+   margin: 0%;
+   padding: 0%;
+   }
+   
+   body {
+      margin: 20px;
+       width: 70%;
+       height: 600px;
+       border: 2px solid black;
+       border-radius: 10px;
+       position: absolute;
+       left: 170px; top: 40px;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   header * {
+       display: inline;
+      height: 50px;
+   }
+   
+   header {
+   display: flex;
+   }
+   
+   header section {
+      font-size: 18px;
+   }
+   
+   header .highscores p {
+     position: relative;
+     top: 20px;
+     margin: 20px;
+   }
+   
+   header .time p {
+    position: relative;
+    left: 700px; top: 27px;
+   }
+   /* Center and style all screens; Start screen, questions screen, and high scores screen. */
+    .startscreen, .questionquiz, #highscores {
+       display: inline-block;
+       text-align: center;
+       width: 700px;
+       font-size: 18px;
+       position: relative;
+       left: 150px; top: 200px;
+    }
+   
+    h1 {
+       padding: 10px;
+    }
+   
+    button {
+       margin: 10px;
+       font-size: 25px;
+       color: white;
+       background-color: darkmagenta;
+       padding: 10px;
+       border-radius: 10px;
+    }
